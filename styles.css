@@ -212,7 +212,8 @@ body {
   padding-bottom: 30px;
 }
 
-.links {
+.links,
+.techused {
   padding: 20px;
 }
 
