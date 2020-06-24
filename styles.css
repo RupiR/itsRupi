@@ -114,3 +114,34 @@ a:hover {
   height: 150px;
   padding-bottom: 10px;
 }
+
+@media screen and (min-width: 480px) {
+  body {
+    font-size: 20px;
+  }
+
+  #mainPage {
+    height: 768px;
+    padding: 70px;
+  }
+
+  #about {
+    height: 768px;
+    padding: 70px;
+  }
+
+  #languages {
+    height: 768px;
+    padding: 70px;
+  }
+
+  #portfolio {
+    height: 2200px;
+    padding: 70px;
+  }
+
+  #contact {
+    height: 768px;
+    padding-top: 70px;
+  }
+}
