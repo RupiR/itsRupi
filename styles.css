@@ -1,6 +1,7 @@
 * {
   margin: 0;
   font-family: "Cabin", sans-serif;
+  fon
 }
 
 body {
@@ -28,17 +29,17 @@ a:hover {
 }
 
 #mainPage {
-  height: 1000px;
+  height: 700px;
   padding: 70px;
 }
 
 #about {
-  height: 1000px;
+  height: 700px;
   padding: 70px;
 }
 
 #languages {
-  height: 1000px;
+  height: 700px;
   padding: 70px;
 }
 
@@ -53,7 +54,7 @@ a:hover {
 
 #myLinks {
   padding-top: 50px;
-  font-size: 15px;
+  font-size: 15px;  
 }
 
 .vertical {
@@ -117,7 +118,7 @@ a:hover {
 
 @media screen and (min-width: 480px) {
   body {
-    font-size: 20px;
+    font-size: 30px;
   }
 
   #mainPage {
@@ -144,4 +145,20 @@ a:hover {
     height: 768px;
     padding-top: 70px;
   }
+
+  #myLinks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #portfolio {
+    height: 2800px;
+  }
+  
+  #myLinks a {
+    padding: 15px;
+    font-size: 25px;
+  }
+
 }
