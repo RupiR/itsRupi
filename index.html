@@ -30,7 +30,7 @@
       <section id="mainPage">
         <div class="mainContent">
           <div class="myAvatar"><img src="myAvatar.png" alt="My Avatar" /></div>
-          <div class="padder textAligner">
+          <div class="padder textAligner myFont">
             <h1>
               meet rupi
             </h1>
@@ -50,10 +50,12 @@
             </p>
           </div>
           <div id="myLinks">
-            <a href="#about">about</a>
-            <a href="#languages">languages</a>
-            <a href="#portfolio">portfolio</a>
-            <a href="#contact">contact</a>
+            <div class="vertical textAligner">
+              <a href="#about">about</a>
+              <a href="#languages">languages</a>
+              <a href="#portfolio">portfolio</a>
+              <a href="#contact">contact</a>
+            </div>
           </div>
         </div>
       </section>
@@ -129,7 +131,7 @@
         <div class="mainContent">
           <div class="padder fontHeader">portfolio</div>
           <!-- Project 1 -->
-          <div class="portfolioSpacer portfolioHeader">it takes a village</div>
+          <div class="portfolioSpacer1 portfolioHeader">it takes a village</div>
           <div class="padder myImage">
             <img src="itavlogo.PNG" alt="itav" />
           </div>
@@ -138,10 +140,10 @@
               It Takes a Village is a community-based altruism application that
               lets users notify their community that they require assistance, be
               it food, clothing, transportation, etc. A user can post a story
-              explaining what kind of help they are in need of, and other users
-              in their real-world "community" (based off geo-location proximity)
-              can indicate whether they can provide aid, or can share to others
-              in their off-app communities that might be able to help.
+              explaining what kind of help they need, and other users in their
+              real-world "community" (based off geo-location proximity) can
+              indicate whether they can provide aid, or can share to others in
+              their off-app communities that might be able to help.
             </p>
           </div>
           <div class="padder textAligner">
@@ -153,8 +155,8 @@
               Projects
             </p>
           </div>
-          <div class="vertical textAligner">
-            <a href="https://itav-app.now.sh" target="_blank">Live Demo</a> |
+          <div class="horizontal textAligner padder linkSpacer">
+            <a href="https://itav-app.now.sh" target="_blank">Live Demo</a>
             <a
               href="https://github.com/brendenrdowd/itTakesAVillage-client"
               target="_blank"
@@ -182,11 +184,11 @@
               GitHub, Visual Studio Code
             </p>
           </div>
-          <div class="vertical textAligner">
+          <div class="horizontal textAligner padder linkSpacer">
             <a href="https://rupir.github.io/TuneZilla/" target="_blank"
               >Live Demo</a
             >
-            |
+
             <a href="https://github.com/RupiR/TuneZilla" target="_blank">
               GitHub Repo</a
             >
@@ -209,11 +211,11 @@
               GitHub, Visual Studio Code
             </p>
           </div>
-          <div class="vertical textAligner">
+          <div class="horizontal textAligner padder linkSpacer">
             <a href="https://rupir.github.io/QuizApp_Final/" target="_blank"
               >Live Demo</a
             >
-            |
+
             <a href="https://github.com/RupiR/QuizApp_Final" target="_blank">
               GitHub Repo</a
             >
@@ -221,7 +223,7 @@
 
           <!-- Project 4 -->
           <div class="portfolioSpacer portfolioHeader">
-            my marvelous memoirs
+            marvelous memoirs
           </div>
           <div class="padder myImage">
             <img src="memoirs2.png" alt="Memoirs" />
@@ -241,11 +243,10 @@
               GitHub Projects, Trello
             </p>
           </div>
-          <div class="vertical textAligner">
+          <div class="horizontal textAligner padder linkSpacer">
             <a href="https://mymarvelousmemoir.now.sh/" target="_blank"
               >Live Demo</a
             >
-            |
             <a
               href="https://github.com/RupiR/My_Marvelous_Memoir-client"
               target="_blank"
@@ -267,29 +268,32 @@
             </p>
           </div>
           <div class="padder">rupalirajput@gmail.com</div>
-          <div class="padder">
-            <a href="mailto:rupalirajput@gmail.com" aria-label="Email">
-              <i class="far fa-envelope fa-3x"></i
-            ></a>
-          </div>
-          <div class="padder">
-            <a
-              href="https://www.linkedin.com/in/itsrupi/"
-              target="new"
-              id="linkedin"
-              aria-label="LinkedIn"
-            >
-              <i class="fab fa-linkedin-in fa-3x"></i>
-            </a>
-          </div>
-          <div class="padder">
-            <a
-              href="https://github.com/rupir/"
-              target="new"
-              id="Github"
-              aria-label="Github"
-              ><i class="fab fa-github fa-3x"></i
-            ></a>
+
+          <div class="socialIcons">
+            <div class="padder socialIcons">
+              <a href="mailto:rupalirajput@gmail.com" aria-label="Email">
+                <i class="far fa-envelope fa-3x"></i
+              ></a>
+            </div>
+            <div class="padder socialIcons">
+              <a
+                href="https://www.linkedin.com/in/itsrupi/"
+                target="new"
+                id="linkedin"
+                aria-label="LinkedIn"
+              >
+                <i class="fab fa-linkedin-in fa-3x"></i>
+              </a>
+            </div>
+            <div class="padder socialIcons">
+              <a
+                href="https://github.com/rupir/"
+                target="new"
+                id="Github"
+                aria-label="Github"
+                ><i class="fab fa-github fa-3x"></i
+              ></a>
+            </div>
           </div>
         </div>
       </section>

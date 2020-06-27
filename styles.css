@@ -1,7 +1,6 @@
 * {
   margin: 0;
   font-family: "Cabin", sans-serif;
-  fon
 }
 
 body {
@@ -11,6 +10,7 @@ body {
 
 a {
   color: #0c0b0b;
+  font-size: 20px;
 }
 
 a:hover {
@@ -29,37 +29,43 @@ a:hover {
 }
 
 #mainPage {
-  height: 700px;
+  height: 800px;
   padding: 70px;
 }
 
 #about {
-  height: 700px;
+  height: 1300px;
   padding: 70px;
 }
 
 #languages {
-  height: 700px;
+  height: 800px;
   padding: 70px;
 }
 
 #portfolio {
-  height: 3200px;
+  height: 3750px;
   padding: 70px;
 }
 
 #contact {
-  height: 1000px;
+  height: 500px;
+  padding: 70px;
 }
 
 #myLinks {
   padding-top: 50px;
-  font-size: 15px;  
+  font-size: 15px;
 }
 
 .vertical {
   display: flex;
   flex-direction: column;
+}
+
+.horizontal {
+  display: flex;
+  flex-direction: row;
 }
 
 .padder {
@@ -102,7 +108,13 @@ a:hover {
 }
 
 .portfolioSpacer {
-  padding-top: 50px;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+.portfolioSpacer1 {
+  padding-top: 55px;
+  padding-bottom: 30px;
 }
 
 .portfolioHeader {
@@ -116,49 +128,169 @@ a:hover {
   padding-bottom: 10px;
 }
 
-@media screen and (min-width: 480px) {
+.socialIcons {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+}
+
+/* Screens of 375px or bigger */
+
+@media screen and (min-width: 375px) {
   body {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   #mainPage {
-    height: 768px;
+    height: 900px;
     padding: 70px;
   }
 
   #about {
-    height: 768px;
+    height: 1500px;
     padding: 70px;
   }
 
   #languages {
-    height: 768px;
+    height: 900px;
     padding: 70px;
   }
 
   #portfolio {
-    height: 2200px;
+    height: 4000px;
     padding: 70px;
   }
 
   #contact {
-    height: 768px;
+    height: 500px;
+    padding-top: 70px;
+  }
+}
+
+/* Screens of 425px or bigger */
+
+@media screen and (min-width: 425px) {
+  body {
+    font-size: 20px;
+  }
+
+  #mainPage {
+    height: 800px;
+    padding: 70px;
+  }
+
+  #about {
+    height: 1100px;
+    padding: 70px;
+  }
+
+  #languages {
+    height: 700px;
+    padding: 70px;
+  }
+
+  #portfolio {
+    height: 3700px;
+    padding: 70px;
+  }
+
+  #contact {
+    height: 500px;
     padding-top: 70px;
   }
 
-  #myLinks{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  .linkSpacer a {
+    padding: 20px;
+  }
+}
+
+/* Screens of 700px or bigger(Tablet view)*/
+
+@media screen and (min-width: 700px) {
+  body {
+    font-size: 20px;
+  }
+
+  #mainPage {
+    height: 550px;
+    padding: 70px;
+  }
+
+  #about {
+    height: 550px;
+    padding: 70px;
+  }
+
+  #languages {
+    height: 450px;
+    padding: 70px;
   }
 
   #portfolio {
     height: 2800px;
-  }
-  
-  #myLinks a {
-    padding: 15px;
-    font-size: 25px;
+    padding: 70px;
   }
 
+  #contact {
+    height: 450px;
+    padding-top: 70px;
+  }
+
+  .linkSpacer a {
+    padding: 20px;
+  }
+}
+
+/* Screens of 1000px or bigger(Desktop view)*/
+
+@media screen and (min-width: 1000px) {
+  body {
+    font-size: 30px;
+  }
+
+  a {
+    font-size: 30px;
+  }
+
+  .fontHeader {
+    font-size: 40px;
+  }
+
+  #mainPage {
+    height: 800px;
+    padding: 70px;
+  }
+
+  #about {
+    height: 850px;
+    padding: 70px;
+  }
+
+  #languages {
+    height: 650px;
+    padding: 70px;
+  }
+
+  #portfolio {
+    height: 3750px;
+    padding: 70px;
+  }
+
+  .portfolioHeader {
+    font-size: 30px;
+  }
+
+  .myImage img {
+    width: 300px;
+    height: 250px;
+  }
+
+  #contact {
+    height: 650px;
+    padding-top: 70px;
+  }
+
+  .linkSpacer a {
+    padding: 20px;
+  }
 }
