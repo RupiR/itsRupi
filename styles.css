@@ -175,28 +175,28 @@ a:hover {
   }
 
   #mainPage {
-    height: 800px;
-    padding: 70px;
+    height: 725px;
+    padding: 10px;
   }
 
   #about {
-    height: 1100px;
-    padding: 70px;
+    height: 725px;
+    padding: 10px;
   }
 
   #languages {
-    height: 700px;
-    padding: 70px;
+    height: 550px;
+    padding: 10px;
   }
 
   #portfolio {
-    height: 3700px;
-    padding: 70px;
+    height: 3000px;
+    padding: 10px;
   }
 
   #contact {
-    height: 500px;
-    padding-top: 70px;
+    height: 350px;
+    padding-top: 10px;
   }
 
   .linkSpacer a {
