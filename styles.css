@@ -29,28 +29,23 @@ a:hover {
 }
 
 #mainPage {
-  height: 800px;
-  padding: 70px;
+  padding: 70px 10px;
 }
 
 #about {
-  height: 1300px;
-  padding: 70px;
+  padding: 70px 10px;
 }
 
 #languages {
-  height: 800px;
-  padding: 70px;
+  padding: 70px 10px;
 }
 
 #portfolio {
-  height: 3750px;
-  padding: 70px;
+  padding: 70px 10px;
 }
 
 #contact {
-  height: 500px;
-  padding: 70px;
+  padding: 70px 10px;
 }
 
 #myLinks {
@@ -142,28 +137,23 @@ a:hover {
   }
 
   #mainPage {
-    height: 900px;
-    padding: 70px 20px;
+    padding: 70px 10px;
   }
 
   #about {
-    height: 1500px;
-    padding: 70px;
+    padding: 70px 10px;
   }
 
   #languages {
-    height: 900px;
-    padding: 70px;
+    padding: 70px 10px;
   }
 
   #portfolio {
-    height: 4000px;
-    padding: 70px;
+    padding: 70px 10px;
   }
 
   #contact {
-    height: 500px;
-    padding-top: 70px;
+    padding: 70px 10px;
   }
 }
 
@@ -175,28 +165,23 @@ a:hover {
   }
 
   #mainPage {
-    height: 725px;
-    padding: 10px;
+    padding: 70px 10px;
   }
 
   #about {
-    height: 725px;
-    padding: 10px;
+    padding: 70px 10px;
   }
 
   #languages {
-    height: 550px;
-    padding: 10px;
+    padding: 70px 10px;
   }
 
   #portfolio {
-    height: 3000px;
-    padding: 10px;
+    padding: 70px 10px;
   }
 
   #contact {
-    height: 350px;
-    padding-top: 10px;
+    padding: 70px 10px;
   }
 
   .linkSpacer a {
@@ -212,27 +197,22 @@ a:hover {
   }
 
   #mainPage {
-    height: 550px;
     padding: 70px;
   }
 
   #about {
-    height: 550px;
     padding: 70px;
   }
 
   #languages {
-    height: 450px;
     padding: 70px;
   }
 
   #portfolio {
-    height: 2800px;
     padding: 70px;
   }
 
   #contact {
-    height: 450px;
     padding-top: 70px;
   }
 
@@ -257,23 +237,19 @@ a:hover {
   }
 
   #mainPage {
-    height: 800px;
-    padding: 70px;
+    padding: 120px;
   }
 
   #about {
-    height: 850px;
-    padding: 70px;
+    padding: 120px;
   }
 
   #languages {
-    height: 650px;
-    padding: 70px;
+    padding: 120px;
   }
 
   #portfolio {
-    height: 3550px;
-    padding: 70px;
+    padding: 120px;
   }
 
   .portfolioHeader {
@@ -286,8 +262,7 @@ a:hover {
   }
 
   #contact {
-    height: 650px;
-    padding-top: 70px;
+    padding: 120px;
   }
 
   .linkSpacer a {
